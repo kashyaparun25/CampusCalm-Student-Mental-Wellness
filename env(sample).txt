@@ -1,0 +1,49 @@
+# Azure OpenAI Configuration
+AZURE_OPENAI_ENDPOINT=""
+AZURE_OPENAI_API_KEY=""
+AZURE_OPENAI_API_VERSION="2024-02-01-preview"
+AZURE_OPENAI_EMBEDDINGS_MODEL_NAME="text-embedding-3-small"
+AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT_NAME="text-embedding-3-small"
+AZURE_OPENAI_DEPLOYMENT="gpt-4o"
+AZURE_OPENAI_MODEL="gpt-4o"
+
+# Alternative OpenAI Configuration (for compatibility with different code)
+OPENAI_API_ENDPOINT=""
+OPENAI_API_KEY=""
+OPENAI_API_VERSION="2024-02-01-preview"
+COMPLETIONS_DEPLOYMENT="gpt-4o"
+EMBEDDINGS_DEPLOYMENT="text-embedding-3-small"
+MODEL_NAME="gpt-4o"
+
+# Azure Cosmos DB Configuration
+COSMOSDB_ACCOUNT_URI=""
+COSMOSDB_ACCOUNT_KEY=""
+COSMOSDB_DATABASE=""
+COSMOSDB_CONTAINER=""
+COSMOSDB_VECTOR_EMBEDDINGS_TYPE="diskANN"
+
+# Alternative Cosmos DB Names (for compatibility)
+COSMOS_ENDPOINT=""
+COSMOS_KEY=""
+COSMOS_DATABASE_NAME=""
+COSMOS_CONTAINER_NAME=""
+
+# History Database Configuration
+HIST_DATABASE_NAME=""
+HIST_CONTAINER_NAME=""
+
+# Voice-specific Configuration
+AZURE_SPEECH_KEY=""
+AZURE_SPEECH_REGION="eastus"
+
+# Campus Calm Agent Configuration
+AZURE_CONN_STRING=""
+AGENT_ID=""
+ALERT_AGENT_ID=""
+
+# Email Alert Configuration
+SMTP_SERVER="smtp.gmail.com"
+SMTP_PORT=587
+SENDER_EMAIL=""
+SENDER_PASSWORD=""
+ADMIN_EMAIL=""
