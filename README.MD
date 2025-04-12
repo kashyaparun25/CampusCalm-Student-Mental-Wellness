@@ -5,6 +5,9 @@
 
 Campus Calm is an AI-powered mental health assistant specifically designed for students at Stevens Institute of Technology. It provides a supportive and confidential space for students to discuss their concerns, access relevant campus resources, and receive immediate crisis information when needed. The assistant leverages Azure AI services, including OpenAI for language understanding and generation, Cosmos DB for knowledge retrieval (RAG) and conversation history, and Azure Speech Services for voice interaction.
 
+![Alt text](/tThumbnail.png?raw=true "Title")
+
+
 ## Overview
 
 This application serves as a dual-interface (text and voice) chatbot. It uses a Retrieval-Augmented Generation (RAG) approach, primarily drawing information from the Stevens Institute of Technology "Red Folder" mental health protocol to provide contextually relevant and accurate information about campus resources. It also includes a severity analysis feature to detect potential crises and trigger email alerts to administrators for timely intervention.
